@@ -7,10 +7,15 @@ Build it as a jar. Copy the TomcatMongoRealm jar into theTomcat libs folder. Not
 
 <pre>
 &lt;Realm 
-		className="org.geoffhayward.login.TomcatMongoRealm"
-		digest="SHA-256"
-		[...]
+	className="org.geoffhayward.login.TomcatMongoRealm"
+	digest="SHA-256"
+	dbName="site-configuration"
+	dbCollection="users"
+	userUsername="username"
+	userPassword="password"
+	userRoles="roles"
 /&gt;
 </pre>
 
 to the context.xml of your Java Web application.
+
