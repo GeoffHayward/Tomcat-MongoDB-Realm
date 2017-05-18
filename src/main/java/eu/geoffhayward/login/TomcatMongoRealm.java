@@ -1,7 +1,7 @@
 /**
  * Copyright 2014
  */
-package org.geoffhayward.login;
+package eu.geoffhayward.login;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
@@ -16,7 +16,7 @@ import org.apache.catalina.realm.GenericPrincipal;
 import org.apache.catalina.realm.RealmBase;
 
 /**
- * @author http://www.geoffhayward.eu
+ * @author https://www.geoffhayward.eu
  */
 public class TomcatMongoRealm extends RealmBase {
 
